@@ -19,3 +19,9 @@ $(document).ready(function() {
     $('#reservationsModal').modal();
     });
 });
+
+$(document).ready(function() {
+    $('#loginTxt').click(function(){
+    $('#loginModal').modal();
+    });
+});
